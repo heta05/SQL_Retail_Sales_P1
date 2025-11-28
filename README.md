@@ -24,9 +24,8 @@ This project is designed to demonstrate SQL skills and techniques typically used
 
 ```sql
 CREATE DATABASE p1_retail_db;
-'''
 
-Whole Table Creation Process
+- **Whole Table Creation Process**:
 
 The entire table was created by importing the CSV file into SQL Server using the Import File option. The steps followed during the import process are documented below:
 
@@ -46,7 +45,6 @@ The entire table was created by importing the CSV file into SQL Server using the
 
  - Finally, validate the import using:
 
-'''sql
 SELECT TOP 10 * FROM Retail_Sales;
 
 ----- DATA Exploration ----
