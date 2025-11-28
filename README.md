@@ -58,7 +58,6 @@ Select Count(distinct customer_id) AS toatal_customers from Retail_Sales
 --- 3.How Many unique category we have ?
 
 Select distinct category AS Category_Name from Retail_Sales
-```
 
 --- Data Analysis & Business Key Problems & Answers --
 
@@ -154,3 +153,4 @@ GROUP BY
         ELSE 'Evening'
     END
 ORDER BY Total_Orders DESC;
+'''
